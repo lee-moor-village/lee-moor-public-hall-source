@@ -1,6 +1,21 @@
 title: Welcome to Lee Moor Hall!
 ---
+bodyend:
+
+<script src="https://apis.google.com/js/api.js"></script>
+<script src="/static/calendar.js"></script>
+<script>
+      jQuery(document).ready(function($) {
+          $('#upcomingevents').gcal({
+              'apikey': 'AIzaSyA7ik78p21-6ByP2sl0z-mCn40hLdSJXVI',
+              'calenderid': 'simonking.org.uk_urkgtismgavccqavi89uk1d25g@group.calendar.google.com'
+          });
+      });
+</script>
+---
 body:
 
 This is a basic demo website that shows how to use Lektor for a basic
 website with some pages and a blog.
+
+<div id="upcomingevents"></div>
