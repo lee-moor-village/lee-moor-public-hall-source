@@ -1,2 +1,8 @@
 [project]
 name = Lee Moor Hall
+
+[servers.production]
+name = Production
+enabled = yes
+default = yes
+target = ghpages://lee-moor-village/lee-moor-public-hall?cname=leemoor.simonking.org.uk
