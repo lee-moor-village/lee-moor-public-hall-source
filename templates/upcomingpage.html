@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  <div class="container">
+    <h1>{{ this.title }}</h1>
+    <div class="row">
+      <div class="col-sm-8">
+        {{ this.body }}
+      </div>
+      <div class="col-sm-4">
+        <div id="upcomingevents"></div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+{% block bodyend %}
+  <script src="https://apis.google.com/js/api.js"></script>
+  <script src="/static/calendar.js"></script>
+  <script>
+      jQuery(document).ready(function($) {
+          $('#upcomingevents').gcal({
+              'apikey': 'AIzaSyA7ik78p21-6ByP2sl0z-mCn40hLdSJXVI',
+              'calenderid': 'simonking.org.uk_urkgtismgavccqavi89uk1d25g@group.calendar.google.com'
+          });
+      });
+  </script>
+{% endblock %}
