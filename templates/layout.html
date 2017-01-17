@@ -21,6 +21,7 @@
           <li{% if this._path == '/' %} class="active"{% endif
           %}><a href="{{ '/'|url }}">Welcome</a></li>
           {% for href, title in [
+            ['/calendar', 'Calendar'],
             ['/blog', 'News'],
             ['/facilities', 'Facilities'],
             ['/contacts', 'Contacts'],
