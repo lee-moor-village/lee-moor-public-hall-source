@@ -1,3 +1,23 @@
 _model: page
 ---
 title: Contacts
+---
+body:
+
+## Hall Committee
+
+* Marilyn
+* Michelle
+* ...
+
+## Booking Enquiries
+
+* Michelle
+* Caroline
+* ...
+
+Here's the booking form
+
+## Website Feedback
+
+Send your website feedback to [Penny King](mailto:penny@pennyking.org.uk).

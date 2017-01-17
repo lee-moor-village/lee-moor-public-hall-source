@@ -2,8 +2,8 @@ title: Welcome to Lee Moor Hall!
 ---
 body:
 
-This is a basic demo website that shows how to use Lektor for a basic
-website with some pages and a blog.
+This is the website for the Lee Moor Public Village Hall. Here you'll find details of what's on at the hall, what to do if you want to book the hall for your own function, the facilities that are available, and also some history about the hall and the village.
 
+If you've got any feedback about the site, please [get in contact](contacts)!
 ---
 _template: upcomingpage.html
