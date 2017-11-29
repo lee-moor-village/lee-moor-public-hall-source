@@ -1,8 +1,8 @@
 [project]
 name = Lee Moor Hall
 
-[servers.production]
+[servers.ghpages]
 name = Production
 enabled = yes
 default = yes
-target = ghpages://lee-moor-village/lee-moor-public-hall?cname=leemoor.simonking.org.uk
+target = ghpages+https://lee-moor-village/lee-moor-public-hall?cname=leemoorpublichall.org.uk
