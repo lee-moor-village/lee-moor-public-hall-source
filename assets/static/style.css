@@ -10,3 +10,25 @@ body {
 .footer {
     margin-top: 1em;
 }
+
+ul.gcal-events {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+li.gcal-event {
+    list-style-type: none;
+    margin-bottom: 0.5em;
+}
+
+.gcal-event-summary {
+    font-weight: bold;
+}
+
+.gcal-event-date {
+    color: #444;
+}
+
+.gcal-event-description {
+    font-size: smaller;
+}

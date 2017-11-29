@@ -49,8 +49,8 @@
                 $.each(resp.result.items, function(index, item) {
                     console.log(item);
                     var $node = $('<li class="gcal-event">' +
-                                  '<div class="gcal-event-date"></div>' +
                                   '<div class="gcal-event-summary"></div>' +
+                                  '<div class="gcal-event-date"></div>' +
                                   '<div class="gcal-event-description"></div>' +
                                   '</div>');
                     $node.find('.gcal-event-date').text(formatitemdate(item));
