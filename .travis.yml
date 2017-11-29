@@ -1,5 +1,9 @@
 language: python
 python: 3.5
+cache:
+  directories:
+    - $HOME/.cache/pip
+    - $HOME/.cache/lektor/builds
 install: "pip install Lektor"
 script: "lektor build"
 deploy:
