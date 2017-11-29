@@ -42,7 +42,7 @@
                     'orderBy': 'startTime',
                     'singleEvents': 'true',
                     'timeMin': datestr,
-                    'maxResults': 10,
+                    'maxResults': 4,
                     'fields': 'items(description,end,start,summary)'
                 });
             }).then(function(resp) {
